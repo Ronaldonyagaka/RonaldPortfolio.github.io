@@ -1165,14 +1165,27 @@ input, select, textarea {
 			z-index: 1;
 		}
 		.cv-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+
+			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+			background-color: transparent;
+			border-radius: 4px;
+			border: 0;
+			background-color: #ffffff;
+			color: #1b1f22 !important;
+			font-weight: 600;
+			cursor: pointer;
+			display: inline-block;
+			font-size: 0.8rem;
+			font-weight: 00;
+			height: 2.75rem;
+			letter-spacing: 0.2rem;
+			line-height: 2.75rem;
+			outline: 0;
+			padding: 0 1.25rem 0 1.35rem;
+			text-align: center;
+			text-decoration: none;
+			text-transform: uppercase;
+			white-space: nowrap;
 }
 
 		body.is-article-visible #bg:after {
